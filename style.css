@@ -1,2 +1,11 @@
-body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.65;color:#1a1a1a}
-h1{font-size:28px}h2{margin-top:32px;font-size:20px}footer{margin-top:48px;font-size:14px;color:#666}a{color:#0b57d0}
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,"Segoe UI","Noto Sans KR",sans-serif;margin:0;line-height:1.65;color:#1a1a1a;background:#fafafa}
+header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:14px 24px;background:#0b0b0d}
+.brand{display:flex;align-items:center;gap:10px;color:#FFD400;text-decoration:none;font-weight:800;font-size:20px;letter-spacing:1px}.brand img{border-radius:8px}
+nav a{color:#e8e8e8;text-decoration:none;margin-left:18px;font-size:15px}nav a:hover{color:#FFD400}
+main{max-width:920px;margin:0 auto;padding:32px 24px}h1{font-size:30px;margin-top:8px}h2{margin-top:36px;font-size:22px;border-left:5px solid #FFD400;padding-left:10px}
+.hero{text-align:center;padding:24px 0 8px}.hero-icon{border-radius:28px}.lead{font-size:18px;color:#333}
+.btn{display:inline-block;background:#FFD400;color:#111;padding:11px 20px;border-radius:8px;text-decoration:none;font-weight:700;margin:6px 4px}.btn.alt{background:#111;color:#FFD400}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:#fff;border:1px solid #e3e3e3;border-radius:12px;padding:6px 18px 12px}.card h3{margin:12px 0 6px}
+.steps li{margin:8px 0}.links{list-style:none;padding:0}.links li{padding:6px 0;border-bottom:1px solid #eee}
+footer{margin-top:40px;padding:24px;background:#0b0b0d;color:#aaa;text-align:center;font-size:14px}footer a{color:#FFD400}footer .fl{margin-bottom:6px}a{color:#0b57d0}code{background:#eee;padding:1px 5px;border-radius:4px}
